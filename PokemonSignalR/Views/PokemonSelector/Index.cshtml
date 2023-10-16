@@ -1,0 +1,38 @@
+﻿@{
+    ViewBag.Title = "Selecciona un Pokémon";
+
+}
+<div class="flex justify-between flex-wrap w-5/6 m-auto">
+    <div id="Pikachu" onclick="seleccionarPokemon('Pikachu', this)" class="pokemon-card block min-w-[18rem] rounded-lg mx-auto bg-rose-600 bg-opacity-50">
+        <div class="relative overflow-hidden bg-cover bg-no-repeat h-40 flex">
+            <img class="rounded-t-lg m-auto w-16" src="https://www.pkparaiso.com/imagenes/espada_escudo/sprites/animados-gigante/pikachu.gif" alt="" />
+        </div>
+        <div class="p-6 bg-gradient-to-r from-slate-800 to-gray-900">
+            <p class="text-base text-center font-bold text-neutral-200">
+                Pikachu
+            </p>
+        </div>
+    </div>
+
+    <div id="Bulbasaur" onclick="seleccionarPokemon('Bulbasaur', this)" class="pokemon-card block min-w-[18rem] rounded-lg mx-auto bg-rose-600 bg-opacity-50">
+        <div class="relative overflow-hidden bg-cover bg-no-repeat h-40 flex">
+            <img class="rounded-t-lg m-auto w-16" src="https://www.pkparaiso.com/imagenes/espada_escudo/sprites/animados-gigante/bulbasaur.gif" alt="" />
+        </div>
+        <div class="p-6  bg-gradient-to-r from-slate-800 to-gray-900">
+            <p class="text-base text-center font-bold text-neutral-200">
+                Bulbasaur
+            </p>
+        </div>
+    </div>
+
+    <div id="Charmander" onclick="seleccionarPokemon('Charmander', this)" class="pokemon-card block min-w-[18rem] rounded-lg mx-auto bg-rose-600 bg-opacity-50">
+        <div class="relative overflow-hidden bg-cover bg-no-repeat h-40 flex">
+            <img class="rounded-t-lg m-auto w-16" src="https://www.pkparaiso.com/imagenes/espada_escudo/sprites/animados-gigante/charmander-s.gif" alt="" />
+        </div>
+        <div class="p-6  bg-gradient-to-r from-slate-800 to-gray-900">
+            <p class="text-base text-center font-bold text-neutral-200">
+                Charmander
+            </p>
+        </div>
+    </div>
+</div>

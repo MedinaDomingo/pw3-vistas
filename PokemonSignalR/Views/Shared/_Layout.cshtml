@@ -1,0 +1,30 @@
+﻿
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="~/css/site.css">
+        <title>Pokemon</title>
+    </head>
+
+    <body class="bg-black text-white">
+
+        <header>
+            <div class="px-6 pt-5 text-center">
+                <img class="m-auto"
+                     src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg">
+            <h3 class="mb-8 text-3xl font-bold">@ViewBag.Title</h3>
+            </div>
+        </header>
+        <main>
+            @RenderBody()
+        </main>
+        <div class="fire"></div>
+</body>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/seleccion.js"></script>
+
+</html>
