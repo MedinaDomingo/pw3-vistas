@@ -1,3 +1,5 @@
+using PokemonData.Entidades;
+using PokemonServicios;
 using PokemonSignalR.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddSignalR();
+
+builder.Services.AddScoped<PokemonJuegoContext>();
+
+builder.Services.AddScoped<IPokemonServicio, PokemonServicio>();
 
 var app = builder.Build();
 

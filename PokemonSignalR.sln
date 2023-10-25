@@ -5,7 +5,11 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonSignalR", "PokemonSignalR\PokemonSignalR.csproj", "{4B8E78F3-3340-4D37-8B5D-18F9183BFA1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonAPI", "PokemonAPI\PokemonAPI.csproj", "{4DAAC248-36CC-4C34-AA81-22B1D4D0EAD3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonAPI", "PokemonAPI\PokemonAPI.csproj", "{4DAAC248-36CC-4C34-AA81-22B1D4D0EAD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokemonData", "PokemonData\PokemonData.csproj", "{AC6B8B2B-B5E2-4645-965A-8AF3F9624EC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonServicios", "PokemonServicios\PokemonServicios.csproj", "{5AB52A2A-B9C0-4A9D-A872-877EB13009A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{4DAAC248-36CC-4C34-AA81-22B1D4D0EAD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DAAC248-36CC-4C34-AA81-22B1D4D0EAD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DAAC248-36CC-4C34-AA81-22B1D4D0EAD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC6B8B2B-B5E2-4645-965A-8AF3F9624EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC6B8B2B-B5E2-4645-965A-8AF3F9624EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC6B8B2B-B5E2-4645-965A-8AF3F9624EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC6B8B2B-B5E2-4645-965A-8AF3F9624EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB52A2A-B9C0-4A9D-A872-877EB13009A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB52A2A-B9C0-4A9D-A872-877EB13009A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB52A2A-B9C0-4A9D-A872-877EB13009A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB52A2A-B9C0-4A9D-A872-877EB13009A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

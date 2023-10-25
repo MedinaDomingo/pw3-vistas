@@ -7,8 +7,8 @@ connection.start().then(function () {
 });
 
 
-function seleccionarPokemon(pokemonNombre, elemento) {
-    connection.invoke('EnviaSeleccion', pokemonNombre).catch(function (err) {
+function seleccionarPokemon(pokemonId, elemento) {
+    connection.invoke('EnviaSeleccion', pokemonId).catch(function (err) {
 
         return console.error(err.toString());
     });
@@ -20,15 +20,14 @@ function seleccionarPokemon(pokemonNombre, elemento) {
 }
 
 
-connection.on("RecibeSeleccion", function (pokemonNombre) {
-    console.log("Pokemon seleccionado: " + pokemonNombre);
-    let element = document.getElementById(pokemonNombre)
+connection.on("RecibeSeleccion", function (pokemonId) {
+    console.log("Pokemon seleccionado: " + pokemonId);
+    let element = document.getElementById(pokemonId)
     if (element) {
         element.classList.add('bg-opacity-100');
     }
 });
 
-connection.on("RedirigeAPelea", function () {
-    window.location.href = 'batalla';
-
+connection.on("RedirigeAPelea", function (yo, contrario) {
+    window.location.href = 'batalla?yo=' + yo + '&contrario=' + contrario;
 });

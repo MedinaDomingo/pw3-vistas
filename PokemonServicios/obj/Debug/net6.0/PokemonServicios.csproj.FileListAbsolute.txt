@@ -1,0 +1,17 @@
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\bin\Debug\net6.0\PokemonServicios.deps.json
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\bin\Debug\net6.0\PokemonServicios.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\bin\Debug\net6.0\PokemonServicios.pdb
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\bin\Debug\net6.0\PokemonData.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\bin\Debug\net6.0\PokemonData.pdb
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.csproj.AssemblyReference.cache
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.GeneratedMSBuildEditorConfig.editorconfig
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.AssemblyInfoInputs.cache
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.AssemblyInfo.cs
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.csproj.CoreCompileInputs.cache
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.csproj.CopyComplete
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\refint\PokemonServicios.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.pdb
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\ref\PokemonServicios.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\bin\Debug\net6.0\PokemonServicios.runtimeconfig.json
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonServicios\obj\Debug\net6.0\PokemonServicios.genruntimeconfig.cache

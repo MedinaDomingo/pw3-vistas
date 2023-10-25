@@ -1,0 +1,14 @@
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\bin\Debug\net6.0\PokemonData.deps.json
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\bin\Debug\net6.0\PokemonData.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\bin\Debug\net6.0\PokemonData.pdb
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.GeneratedMSBuildEditorConfig.editorconfig
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.AssemblyInfoInputs.cache
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.AssemblyInfo.cs
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.csproj.CoreCompileInputs.cache
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\refint\PokemonData.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.pdb
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\ref\PokemonData.dll
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.csproj.AssemblyReference.cache
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\bin\Debug\net6.0\PokemonData.runtimeconfig.json
+G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonData\obj\Debug\net6.0\PokemonData.genruntimeconfig.cache
