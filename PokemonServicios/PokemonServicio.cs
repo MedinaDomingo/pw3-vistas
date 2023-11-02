@@ -1,4 +1,5 @@
-﻿using PokemonData.Entidades;
+﻿using Microsoft.EntityFrameworkCore;
+using PokemonData.Entidades;
 
 namespace PokemonServicios
 {
@@ -40,7 +41,7 @@ namespace PokemonServicios
 
         public List<Pokemon> ObtenerTodos()
         {
-            return _contexto.Pokemons.ToList();
+            return _contexto.Pokemons.Include(p => p.Ataques).ToList();
         }
     }
 }

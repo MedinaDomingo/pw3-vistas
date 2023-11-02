@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9pKCHjg8QJRm7PMlNpiCFThuN/CuHsTGd7zoAP2IySNz3wop3ORXYBm8Va/FMq9UtsFnx8xA24yWScq4S2zgfw==",
+  "dgSpecHash": "qS82CbNpR+xWE1UmsDyls+wo5q2k+I0Wg0GMZPr8zWVc57oVdMixjZS8VbfFtJrvpYY/DdpvTYIHqpVs4tuvvQ==",
   "success": true,
   "projectFilePath": "G:\\Tecnicatura\\pw3\\PokemonSignalR\\PokemonSignalR\\PokemonServicios\\PokemonServicios.csproj",
   "expectedPackageFiles": [
@@ -16,7 +16,7 @@
     "C:\\Users\\dom\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.13\\microsoft.entityframeworkcore.analyzers.7.0.13.nupkg.sha512",
     "C:\\Users\\dom\\.nuget\\packages\\microsoft.entityframeworkcore.design\\7.0.13\\microsoft.entityframeworkcore.design.7.0.13.nupkg.sha512",
     "C:\\Users\\dom\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\7.0.13\\microsoft.entityframeworkcore.relational.7.0.13.nupkg.sha512",
-    "C:\\Users\\dom\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.12\\microsoft.entityframeworkcore.sqlserver.7.0.12.nupkg.sha512",
+    "C:\\Users\\dom\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\7.0.13\\microsoft.entityframeworkcore.sqlserver.7.0.13.nupkg.sha512",
     "C:\\Users\\dom\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\7.0.13\\microsoft.entityframeworkcore.tools.7.0.13.nupkg.sha512",
     "C:\\Users\\dom\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\dom\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

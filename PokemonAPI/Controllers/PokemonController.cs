@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PokemonData.Entidades;
 using PokemonServicios;
+using System.Text.Json.Serialization;
+using System.Text.Json;
 
 namespace PokemonAPI.Controllers
 {
@@ -17,9 +19,17 @@ namespace PokemonAPI.Controllers
         }
 
         [HttpGet]
-        public List<Pokemon> Get()
+        public IActionResult Get()
         {
-            return _pokemonServicio.ObtenerTodos();
+            var objeto = _pokemonServicio.ObtenerTodos();
+
+            var options = new JsonSerializerOptions
+            {
+                ReferenceHandler = ReferenceHandler.Preserve
+            };
+
+            var json = JsonSerializer.Serialize(objeto, options);
+            return Ok(json);
         }
         [HttpPost]
         public void Post([FromBody] Pokemon pokemon)

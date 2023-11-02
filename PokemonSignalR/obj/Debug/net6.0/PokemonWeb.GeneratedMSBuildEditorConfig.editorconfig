@@ -1,0 +1,49 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PokemonWeb
+build_property.RootNamespace = PokemonWeb
+build_property.ProjectDir = G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonSignalR\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = G:\Tecnicatura\pw3\PokemonSignalR\PokemonSignalR\PokemonSignalR
+build_property._RazorSourceGeneratorDebug = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/Batalla/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmF0YWxsYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/PokemonSelector/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblNlbGVjdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/Shared/_BatallaLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CYXRhbGxhTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[G:/Tecnicatura/pw3/PokemonSignalR/PokemonSignalR/PokemonSignalR/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2n6mwjb6b8

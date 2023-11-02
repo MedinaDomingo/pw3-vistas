@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PokemonData.Entidades;
+using PokemonServicios;
 
 namespace PokemonAPI.Controllers
 {
@@ -9,25 +10,56 @@ namespace PokemonAPI.Controllers
     [ApiController]
     public class AtaqueController : ControllerBase
     {
-        PokemonJuegoContext _contexto = new PokemonJuegoContext();
-        [HttpGet]
-        public Ataque Get()
+        private IAtaqueServivio _ataqueServicio;
+        public AtaqueController(IAtaqueServivio ataqueServicio)
         {
-            return _contexto.Ataques.Include(a => a.IdPokemonNavigation)
-                                .FirstOrDefault(a => a.Id == 1);
+            _ataqueServicio = ataqueServicio;
+        }
+
+        [HttpGet]
+        public List<Ataque> Get()
+        {
+            return _ataqueServicio.ObtenerAtaques();
+        }
+        [HttpGet("pokemon/{idPokemon}")]
+        public List<Ataque> Get(int idPokemon)
+        {
+            return _ataqueServicio.ObtenerAtaquesPorIdDePokemon(idPokemon);
+        }
+        [HttpGet("{idAtaque}")]
+        public Ataque GetAtaqueId(int idAtaque)
+        {
+            return _ataqueServicio.BuscarAtaquePorId(idAtaque);
         }
         [HttpPost]
         public void Post([FromBody]Ataque ataque) 
         {
-            _contexto.Add(ataque);
-            _contexto.SaveChanges();
+            _ataqueServicio.AgregarAtaque(ataque);
         }
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Ataque ataque)
+        public ActionResult Put(int id, [FromBody] Ataque ataque)
         {
-            ataque.Id = id;
-            _contexto.Update(ataque);
-            _contexto.SaveChanges();
+            Ataque ataqueModificar = _ataqueServicio.BuscarAtaquePorId(id);
+            if (ataqueModificar == null)
+            {
+                return BadRequest();
+            }
+            ataqueModificar.Nombre = ataque.Nombre;
+            _ataqueServicio.ModificarAtaque(ataqueModificar);
+            return Ok();
         }
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            Ataque ataque = _ataqueServicio.BuscarAtaquePorId(id);
+            if(ataque == null)
+            {
+                return BadRequest();
+            }
+
+            _ataqueServicio.EliminarAtaque(ataque);
+            return Ok();
+        }
+
     }
 }
